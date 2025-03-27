@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Auth.css"; // Importa o CSS
-import logo from "../logo.svg"; // Certifique-se de que o caminho do logo está correto
+import logo from "../assets/logo1.svg"; // Certifique-se de que o caminho do logo está correto
 
 const Login = () => {
   return (
@@ -11,8 +11,10 @@ const Login = () => {
         <button className="secondary-button">Registrar-se</button>
       </div>
       <div className="right">
-        <h2>Login</h2>
-        <p>Entre para continuar</p>
+        <div className="right-header">
+          <h2>Login</h2>
+          <p>Entre para continuar</p>
+        </div>
         <form>
           <input type="email" placeholder="Usuário ou e-mail" required />
           <input type="password" placeholder="Senha" required />

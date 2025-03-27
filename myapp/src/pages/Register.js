@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/Auth.css";
-import logo from "../logo.svg";
+import logo from "../assets/logo1.svg";
 
 const Register = () => {
   return (
     <div className="container">
       <div className="left">
         <img src={logo} alt="Logo Elo Drinks" />
-        <p>Seu drink em nossas mãos</p>
+        <p>Já possui conta?</p>
+        <button className="secondary-button">Login</button>
       </div>
       <div className="right">
         <h2>Registrar</h2>
